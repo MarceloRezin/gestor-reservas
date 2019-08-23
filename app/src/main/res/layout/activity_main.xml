@@ -1,0 +1,371 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+   <LinearLayout
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:orientation="vertical"
+       >
+
+       <LinearLayout
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:orientation="horizontal"
+           android:weightSum="100"
+           android:layout_marginTop="15dp"
+           android:layout_marginLeft="20dp"
+           android:layout_marginRight="20dp"
+           >
+
+           <LinearLayout
+               android:id="@+id/linear_mesa_1"
+               android:layout_width="match_parent"
+               android:layout_height="wrap_content"
+               android:orientation="vertical"
+               android:layout_weight="33"
+               android:background="@color/indigo"
+               android:layout_marginRight="10dp"
+               >
+
+               <TextView
+                   android:layout_width="match_parent"
+                   android:layout_height="wrap_content"
+                   android:text="@string/n_1"
+                   android:textSize="40dp"
+                   android:textAlignment="center"
+                   android:textColor="#FFF"
+                   android:textStyle="bold"
+                   />
+
+               <Button
+                   android:id="@+id/btn_reservar_1"
+                   android:layout_width="match_parent"
+                   android:layout_height="wrap_content"
+                   android:text="@string/reservar"/>
+
+           </LinearLayout>
+
+           <LinearLayout
+               android:id="@+id/linear_mesa_2"
+               android:layout_width="match_parent"
+               android:layout_height="wrap_content"
+               android:orientation="vertical"
+               android:layout_weight="33"
+               android:background="@color/indigo"
+               android:layout_marginRight="10dp"
+               >
+
+               <TextView
+                   android:layout_width="match_parent"
+                   android:layout_height="wrap_content"
+                   android:text="@string/n_2"
+                   android:textSize="40dp"
+                   android:textAlignment="center"
+                   android:textColor="#FFF"
+                   android:textStyle="bold"
+                   />
+
+               <Button
+                   android:id="@+id/btn_reservar_2"
+                   android:layout_width="match_parent"
+                   android:layout_height="wrap_content"
+                   android:text="@string/reservar"/>
+
+           </LinearLayout>
+
+           <LinearLayout
+               android:id="@+id/linear_mesa_3"
+               android:layout_width="match_parent"
+               android:layout_height="wrap_content"
+               android:orientation="vertical"
+               android:layout_weight="34"
+               android:background="@color/indigo"
+               >
+
+               <TextView
+                   android:layout_width="match_parent"
+                   android:layout_height="wrap_content"
+                   android:text="@string/n_3"
+                   android:textSize="40dp"
+                   android:textAlignment="center"
+                   android:textColor="#FFF"
+                   android:textStyle="bold"
+                   />
+
+               <Button
+                   android:id="@+id/btn_reservar_3"
+                   android:layout_width="match_parent"
+                   android:layout_height="wrap_content"
+                   android:text="@string/reservar"/>
+
+           </LinearLayout>
+
+       </LinearLayout>
+
+       <LinearLayout
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:orientation="horizontal"
+           android:weightSum="100"
+           android:layout_marginTop="10dp"
+           android:layout_marginLeft="20dp"
+           android:layout_marginRight="20dp"
+           >
+
+           <LinearLayout
+               android:id="@+id/linear_mesa_4"
+               android:layout_width="match_parent"
+               android:layout_height="wrap_content"
+               android:orientation="vertical"
+               android:layout_weight="33"
+               android:background="@color/indigo"
+               android:layout_marginRight="10dp"
+               >
+
+               <TextView
+                   android:layout_width="match_parent"
+                   android:layout_height="wrap_content"
+                   android:text="@string/n_4"
+                   android:textSize="40dp"
+                   android:textAlignment="center"
+                   android:textColor="#FFF"
+                   android:textStyle="bold"
+                   />
+
+               <Button
+                   android:id="@+id/btn_reservar_4"
+                   android:layout_width="match_parent"
+                   android:layout_height="wrap_content"
+                   android:text="@string/reservar"/>
+
+           </LinearLayout>
+
+           <LinearLayout
+               android:id="@+id/linear_mesa_5"
+               android:layout_width="match_parent"
+               android:layout_height="wrap_content"
+               android:orientation="vertical"
+               android:layout_weight="33"
+               android:background="@color/indigo"
+               android:layout_marginRight="10dp"
+               >
+
+               <TextView
+                   android:layout_width="match_parent"
+                   android:layout_height="wrap_content"
+                   android:text="@string/n_5"
+                   android:textSize="40dp"
+                   android:textAlignment="center"
+                   android:textColor="#FFF"
+                   android:textStyle="bold"
+                   />
+
+               <Button
+                   android:id="@+id/btn_reservar_5"
+                   android:layout_width="match_parent"
+                   android:layout_height="wrap_content"
+                   android:text="@string/reservar"/>
+
+           </LinearLayout>
+
+           <LinearLayout
+               android:id="@+id/linear_mesa_6"
+               android:layout_width="match_parent"
+               android:layout_height="wrap_content"
+               android:orientation="vertical"
+               android:layout_weight="34"
+               android:background="@color/indigo"
+               >
+
+               <TextView
+                   android:layout_width="match_parent"
+                   android:layout_height="wrap_content"
+                   android:text="@string/n_6"
+                   android:textSize="40dp"
+                   android:textAlignment="center"
+                   android:textColor="#FFF"
+                   android:textStyle="bold"
+                   />
+
+               <Button
+                   android:id="@+id/btn_reservar_6"
+                   android:layout_width="match_parent"
+                   android:layout_height="wrap_content"
+                   android:text="@string/reservar"/>
+
+           </LinearLayout>
+
+
+
+       </LinearLayout>
+
+       <LinearLayout
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:orientation="horizontal"
+           android:weightSum="100"
+           android:layout_marginTop="10dp"
+           android:layout_marginLeft="20dp"
+           android:layout_marginRight="20dp"
+           >
+
+           <LinearLayout
+               android:id="@+id/linear_mesa_7"
+               android:layout_width="match_parent"
+               android:layout_height="wrap_content"
+               android:orientation="vertical"
+               android:layout_weight="33"
+               android:background="@color/indigo"
+               android:layout_marginRight="10dp"
+               >
+
+               <TextView
+                   android:layout_width="match_parent"
+                   android:layout_height="wrap_content"
+                   android:text="@string/n_7"
+                   android:textSize="40dp"
+                   android:textAlignment="center"
+                   android:textColor="#FFF"
+                   android:textStyle="bold"
+                   />
+
+               <Button
+                   android:id="@+id/btn_reservar_7"
+                   android:layout_width="match_parent"
+                   android:layout_height="wrap_content"
+                   android:text="@string/reservar"/>
+
+           </LinearLayout>
+
+           <LinearLayout
+               android:id="@+id/linear_mesa_8"
+               android:layout_width="match_parent"
+               android:layout_height="wrap_content"
+               android:orientation="vertical"
+               android:layout_weight="33"
+               android:background="@color/indigo"
+               android:layout_marginRight="10dp"
+               >
+
+               <TextView
+                   android:layout_width="match_parent"
+                   android:layout_height="wrap_content"
+                   android:text="@string/n_8"
+                   android:textSize="40dp"
+                   android:textAlignment="center"
+                   android:textColor="#FFF"
+                   android:textStyle="bold"
+                   />
+
+               <Button
+                   android:id="@+id/btn_reservar_8"
+                   android:layout_width="match_parent"
+                   android:layout_height="wrap_content"
+                   android:text="@string/reservar"/>
+
+           </LinearLayout>
+
+           <LinearLayout
+               android:id="@+id/linear_mesa_9"
+               android:layout_width="match_parent"
+               android:layout_height="wrap_content"
+               android:orientation="vertical"
+               android:layout_weight="34"
+               android:background="@color/indigo"
+               >
+
+               <TextView
+                   android:layout_width="match_parent"
+                   android:layout_height="wrap_content"
+                   android:text="@string/n_9"
+                   android:textSize="40dp"
+                   android:textAlignment="center"
+                   android:textColor="#FFF"
+                   android:textStyle="bold"
+                   />
+
+               <Button
+                   android:id="@+id/btn_reservar_9"
+                   android:layout_width="match_parent"
+                   android:layout_height="wrap_content"
+                   android:text="@string/reservar"/>
+
+           </LinearLayout>
+
+       </LinearLayout>
+
+       <LinearLayout
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:orientation="horizontal"
+           android:weightSum="100"
+           android:layout_marginTop="15dp"
+           android:layout_marginLeft="20dp"
+           android:layout_marginRight="20dp"
+           >
+
+           <EditText
+               android:id="@+id/edit_numero_mesa"
+               android:layout_width="match_parent"
+               android:layout_height="wrap_content"
+               android:layout_weight="50"
+               android:hint="@string/numero_mesa"
+               android:inputType="number"
+               android:layout_marginRight="15dp"
+               />
+
+           <Button
+               android:id="@+id/btn_liberarMesa"
+               android:layout_width="match_parent"
+               android:layout_height="wrap_content"
+               android:layout_weight="50"
+               android:text="@string/liberar_mesa"
+               />
+
+
+       </LinearLayout>
+
+       <LinearLayout
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:orientation="horizontal"
+           android:layout_marginTop="5dp"
+           android:layout_marginLeft="20dp"
+           android:layout_marginRight="20dp"
+           >
+
+           <Button
+               android:id="@+id/btn_salvar_operacao"
+               android:layout_width="match_parent"
+               android:layout_height="match_parent"
+               android:text="@string/salvar_operacao"
+               />
+
+       </LinearLayout>
+
+       <LinearLayout
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:orientation="horizontal"
+           android:layout_marginTop="5dp"
+           android:layout_marginLeft="20dp"
+           android:layout_marginRight="20dp"
+           >
+
+           <Button
+               android:id="@+id/btn_reservar_todas_mesas"
+               android:layout_width="match_parent"
+               android:layout_height="match_parent"
+               android:text="@string/reservar_todas_mesas"
+               />
+
+       </LinearLayout>
+
+   </LinearLayout>
+
+</ScrollView>
